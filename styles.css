@@ -32,6 +32,16 @@ body {
   
 }
 
+@media screen and (max-width: 1100px) {
+  .test {
+      font-size: calc(10px + 1vw);
+      width: 50%;
+      height: 50%;
+      line-height: 25px;
+  }   
+}
+
+
 .description {
   text-transform: capitalize;
 }
@@ -43,64 +53,6 @@ body {
 
 .description {
   margin-top: 2.5rem;
-}
-
-
-
-.web19201 .ellipse1 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      box-shadow: none;
-      width: 497.00px;
-    height: 497.00px;
-    left: 1128.00px;
-    top: 206.00px;
-
-}
-
-.web19201 .ellipse2 {
-    position: absolute;
-    box-sizing: content-box;
-    -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      box-shadow: none;
-      width: 196.00px;
-    height: 196.00px;
-    left: 296.00px;
-    top: 514.00px;
-
 }
 
 .search-bar {
@@ -115,6 +67,12 @@ body {
   color: white;
 }
 
+@media screen and (max-width: 1100px) {
+  .search-bar {
+    width: 80%;
+  }   
+}
+
 ::placeholder {
   color: rgb(207, 207, 207);
 }
@@ -122,4 +80,11 @@ body {
 
 .fas {
   cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+  .fa-search:before {
+      font-size: 30px;
+
+  }   
 }
